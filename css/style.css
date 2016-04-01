@@ -1,0 +1,298 @@
+body {background: yellow;
+}
+
+*{margin: 0;
+padding: 0;}
+
+.ba-checkers {
+	position: relative;
+	margin: 0 auto;
+	width: 80vmin;
+	height: 80vmin;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	border: 30px solid grey;
+	margin-top: 30px;
+}
+
+.ba-border {
+	position: relative;
+	width: 80vmin;
+	height: 80vmin;
+	border:2px solid black;
+}
+
+div{width: 100%;
+height: 12.5%;}
+
+.row1 {
+	position:absolute;
+	width: 12.5%;
+	height: 100%;
+    left:0;
+    top:0;
+}
+
+.row2 {
+	position:absolute;
+	width: 12.5%;
+	height: 100%;
+	top:0;
+	left:12.5%;
+}
+.row3 {
+	position:absolute;
+	width: 12.5%;
+	height: 100%;
+	top:0;
+	left:25%;
+}
+.row4 {
+	position:absolute;
+	width: 12.5%;
+	height: 100%;
+	top:0;
+	left:37.5%;
+}
+.row5 {
+	position:absolute;
+	width: 12.5%;
+	height: 100%;
+	top:0;
+	left:50%;
+}
+.row6 {
+	position:absolute;
+	width: 12.5%;
+	height: 100%;
+	top:0;
+	right:25%;
+}
+.row7 {
+	position:absolute;
+	width: 12.5%;
+	height: 100%;
+	top:0;
+	right:12.5%;
+}
+.row8 {
+	position:absolute;
+	width: 12.5%;
+	height: 100%;
+	top:0;
+	right:0;
+}
+
+.row1 div:nth-child(2n+1) {
+	background-color: black;
+}
+
+.row1 div:nth-child(2n) {
+  background-color: white;
+}
+
+.row2 div:nth-child(2n+1) {
+  background-color: white;
+}
+
+.row2 div:nth-child(2n) {
+  background-color: black;
+}
+
+.row3 div:nth-child(2n+1) {
+  background-color: black;
+}
+
+.row3 div:nth-child(2n) {
+  background-color: white;
+}
+
+.row4 div:nth-child(2n+1) {
+  background-color: white;
+}
+
+.row4 div:nth-child(2n) {
+  background-color: black;
+}
+
+.row5 div:nth-child(2n+1) {
+  background-color: black;
+}
+
+.row5 div:nth-child(2n) {
+  background-color: white;
+}
+
+.row6 div:nth-child(2n+1) {
+  background-color: white;
+}
+
+.row6 div:nth-child(2n) {
+  background-color: black;
+}
+
+.row7 div:nth-child(2n+1) {
+  background-color: black;
+}
+
+.row7 div:nth-child(2n) {
+  background-color: white;
+}
+
+.row8 div:nth-child(2n+1) {
+  background-color: white;
+}
+
+.row8 div:nth-child(2n) {
+  background-color: black;
+}
+
+.ba-red{
+	position: absolute;
+ 	margin: 1%;
+ 	width: 11%;
+  	height: 11%;
+    background: red;
+ 	border-radius: 50%;
+}
+
+.r1{
+	top:12.5%;
+	left:12.5%;
+}
+
+.r2 {
+	top:25%;
+	left:0;
+}
+
+.r3 {
+	top:0;
+	left:25%;
+}
+
+.r4 {
+	top:25%;
+	left:25%;
+}
+
+.r5 {
+	top:0;
+	left:50%;
+}
+
+.r6 {
+	top:12.5%;
+	left:37.5%;
+}
+
+.r7{
+	top:25%;
+	left:50%;
+}
+
+.r8 {
+	top:0;
+	right:12.5%;
+}
+.r9 {
+	top:25%;
+	right:12.5%;
+}
+
+.r10 {
+	top:12.5%;
+	right:0;
+}
+
+.r11{
+	top:12.5%;
+	right:25%;
+}
+
+.r12 {
+	top:0;
+	left:0;
+}
+
+.ba-white{
+	position: absolute;
+ 	margin: 1%;
+ 	width: 11%;
+  	height: 11%;
+    background: white;
+ 	border-radius: 50%;
+ }
+
+.w1{
+	bottom:12.5%;
+	left:0;
+}
+
+.w2 {
+	bottom:25%;
+	left:12.5%;
+}
+
+.w3 {
+	bottom:0;
+	left:12.5%;
+}
+
+.w4 {
+	bottom:12.5%;
+	left:25%;
+}
+
+.w5 {
+	bottom:0;
+	left:37.5%;
+}
+
+.w6 {
+	bottom:25%;
+	left:37.5%;
+}
+
+.w7{
+	bottom:12.5%;
+	left:50%;
+}
+
+.w8 {
+	bottom:0;
+	right:25%;
+}
+.w9 {
+	bottom:25%;
+	right:25%;
+}
+
+.w10 {
+	bottom:12.5%;
+	right:12.5%;
+}
+
+.w11{
+	bottom:25%;
+	right:0;
+}
+
+.w12 {
+	bottom:0;
+	right:0;
+}
+
+.ba-red:hover {
+ margin-top: 0%;
+ transition: all .1s ease-in;
+ box-shadow: 3px 5px 0 rgba(244, 203, 150, 0.7);
+}
+
+.ba-white:hover {
+ margin-top: 0%;
+ transition: all .1s ease-in;
+ box-shadow: 3px 5px 0 rgba(92, 203, 150, 0.7);
+}
