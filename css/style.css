@@ -227,61 +227,61 @@ height: 12.5%;}
  }
 
 .w1{
-	bottom:12.5%;
+	top:75%;
 	left:0;
 }
 
 .w2 {
-	bottom:25%;
+	top:62.5%;
 	left:12.5%;
 }
 
 .w3 {
-	bottom:0;
+	top:87.5%;
 	left:12.5%;
 }
 
 .w4 {
-	bottom:12.5%;
+	top:75%;
 	left:25%;
 }
 
 .w5 {
-	bottom:0;
+	top:87.5%;
 	left:37.5%;
 }
 
 .w6 {
-	bottom:25%;
+	top:62.5%;
 	left:37.5%;
 }
 
 .w7{
-	bottom:12.5%;
+	top:75%;
 	left:50%;
 }
 
 .w8 {
-	bottom:0;
+	top:87.5%;
 	right:25%;
 }
 .w9 {
-	bottom:25%;
+	top:62.5%;
 	right:25%;
 }
 
 .w10 {
-	bottom:12.5%;
+	top:75%;
 	right:12.5%;
 }
 
 .w11{
-	bottom:25%;
+	top:62.5%;
 	right:0;
 }
 
 .w12 {
-	bottom:0;
+	top:87.5%;
 	right:0;
 }
 
